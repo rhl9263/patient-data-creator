@@ -1,0 +1,3639 @@
+{
+  "localPatient": {
+    "mode": "AGGREGATE-HDH",
+    "resource": "local-patients",
+    "value": {
+      "attachments": [],
+      "system": "NextGen Health Data Hub",
+      "identifiers": [
+        {
+          "localId": "KECQRO-68L31R",
+          "type": "HL7.PID",
+          "system": "LAB2"
+        }
+      ],
+      "name": {
+        "first": "Grumpy",
+        "last": "Industry",
+        "middle": "Eatable",
+        "prefix": "prefix",
+        "suffix": "suffix",
+        "degree": "DEGREE"
+      },
+      "alternateName": {
+        "first": "GaonO",
+        "last": "xF1Zb",
+        "middle": "AAd1x",
+        "suffix": "HxSvI",
+        "prefix": "33Bm6",
+        "degree": "ATkF2"
+      },
+      "addresses": [
+        {
+          "street1": "1006 Quack Shade Ave.",
+          "street2": "Apt 6",
+          "street3": "street",
+          "locality": "Narrowton",
+          "region": "OR",
+          "postal": "62402",
+          "countryCode": "US",
+          "type": "SECONDARY"
+        },
+        {
+          "street1": "1006 Quack Shade Ave.",
+          "street2": "Apt 6",
+          "locality": "Narrowton",
+          "region": "OR",
+          "postal": "62402",
+          "countryCode": "US",
+          "type": "HOME",
+          "localCode": {
+            "code": "4o3EC"
+          },
+          "street3": "street line 3"
+        }
+      ],
+      "dob": {
+        "value": "19660123"
+      },
+      "phoneNumbers": [
+        {
+          "communicationAddress": "(142) 674-3762",
+          "localCode": {
+            "code": "HP",
+            "label": "HP"
+          },
+          "type": "HOME"
+        },
+        {
+          "type": "FAX",
+          "communicationAddress": "fax"
+        },
+        {
+          "type": "SECONDARY",
+          "communicationAddress": "Secondary Phone Number"
+        },
+        {
+          "communicationAddress": "(311) 519-2033",
+          "localCode": {
+            "code": "WP",
+            "label": "WP"
+          },
+          "type": "WORK"
+        }
+      ],
+      "emails": [
+        {
+          "communicationAddress": "kelvina@ipi.com",
+          "localCode": {
+            "code": "H",
+            "label": "H"
+          },
+          "type": "EMAIL"
+        }
+      ],
+      "gender": {
+        "code": "Female",
+        "label": "Female",
+        "translations": [
+          {
+            "code": "Female",
+            "label": "Female"
+          }
+        ]
+      },
+      "maritalStatus": {
+        "code": "G",
+        "label": "Living together",
+        "translations": [
+          {
+            "code": "G",
+            "label": "Living together"
+          }
+        ]
+      },
+      "religion": {
+        "code": "SEV",
+        "label": "Christian: Seventh Day Adventist",
+        "translations": [
+          {
+            "code": "SEV",
+            "label": "Christian: Seventh Day Adventist"
+          }
+        ]
+      },
+      "citizenship": {
+        "label": "citizen"
+      },
+      "driversLicenseInfo": "driver license",
+      "ssn": "ssn",
+      "timeOfDeath": {
+        "value": "2024-09-09"
+      },
+      "sexualOrientation": {
+        "label": "sexual orientation",
+        "usage": "SEXUAL_ORIENTATION"
+      },
+      "motherMaidenName": {
+        "first": "uPtf4",
+        "last": "PikIr",
+        "middle": "U0eOB",
+        "suffix": "u3BEX",
+        "prefix": "zLShw",
+        "degree": "X8hIa"
+      },
+      "multipleBirthInd": "MtvCy",
+      "birthOrder": "X2mFa",
+      "militaryStatusCode": "G22t7",
+      "deceased": true,
+      "genderIdentity": {
+        "label": "gender identity",
+        "usage": "GENDER_IDENTITY"
+      },
+      "ethnicities": [
+        {
+          "code": "H",
+          "label": "Hispanic or Latino",
+          "translations": [
+            {
+              "code": "H",
+              "label": "Hispanic or Latino"
+            }
+          ]
+        }
+      ],
+      "races": [
+        {
+          "code": "2028-9",
+          "label": "Asian",
+          "translations": [
+            {
+              "code": "2028-9",
+              "label": "Asian"
+            }
+          ]
+        }
+      ],
+      "languageCommunications": [
+        {
+          "language": {
+            "code": "Ganda"
+          }
+        }
+      ],
+      "birthPlace": "Ider, MO",
+      "insurances": [
+        {
+          "planId": {
+            "code": "Plan Y",
+            "label": "Plan Y"
+          },
+          "companyId": {
+            "code": "Company m"
+          },
+          "companyName": {
+            "code": "Company Name"
+          },
+          "companyAddress": {
+            "street1": "6809 Silver Farms",
+            "street2": "Apt 424",
+            "locality": "Vestavia Hills",
+            "region": "WI",
+            "postal": "30055",
+            "countryCode": "US"
+          },
+          "companyVoiceContact": {
+            "communicationAddress": "(361) 779-2084",
+            "type": "WORK"
+          },
+          "groupNumber": "W",
+          "planEffectiveDate": {
+            "value": "20000621"
+          },
+          "planExpirationDate": {
+            "value": "20140916"
+          },
+          "insuredName": {
+            "first": "Miyoko",
+            "last": "Hasheider"
+          },
+          "insuredAddress": {
+            "street1": "7111 Green Robin Falls",
+            "street2": "Apt 069",
+            "locality": "Natural Bridge",
+            "region": "CT",
+            "postal": "69026",
+            "countryCode": "US"
+          },
+          "planType": {
+            "code": "Type_h",
+            "label": "Type h"
+          },
+          "insuredRelationship": {
+            "code": "Relationship",
+            "label": "Relationship"
+          },
+          "insuredDob": {
+            "value": "20000621"
+          },
+          "insuredIdNumber": "z1qWKFfTjdOMGynI2b3K",
+          "policyNumber": "I",
+          "holderIdNumber": "NextGen Health Data Hub",
+          "authorizedClinicalItemCodes": []
+        },
+        {
+          "planId": {
+            "code": "VAv1M",
+            "label": "YXtFW",
+            "codeSystem": "K1vwr"
+          },
+          "companyId": {
+            "code": "1w2AX",
+            "label": "rj9CX",
+            "codeSystem": "Ct3X2"
+          },
+          "companyName": {
+            "code": "OPpsL",
+            "label": "OPpsL"
+          },
+          "companyAddress": {
+            "street1": "8D00M",
+            "street2": "C2diA",
+            "locality": "NbVuH",
+            "region": "6ofLb",
+            "postal": "uXEuh",
+            "countryCode": "AprF6",
+            "localCode": {
+              "code": "H9FeA"
+            }
+          },
+          "companyContactName": {
+            "first": "fZBzb",
+            "last": "bKYES",
+            "middle": "B99Ch",
+            "suffix": "DMhPi",
+            "prefix": "9lgzO",
+            "degree": "RUplt"
+          },
+          "companyVoiceContact": {
+            "communicationAddress": "7ESx6",
+            "type": "WORK"
+          },
+          "groupNumber": "uCSLv",
+          "groupName": "oyBFN",
+          "groupEmployerId": "gSTB6",
+          "groupEmployerName": "r80vC",
+          "planEffectiveDate": {
+            "value": "20220831"
+          },
+          "planExpirationDate": {
+            "value": "20240831"
+          },
+          "insuredName": {
+            "first": "8sjys",
+            "last": "uG7ES",
+            "middle": "UDd5H",
+            "suffix": "8tTkn",
+            "prefix": "BT3xH",
+            "degree": "a1YUJ"
+          },
+          "insuredAddress": {
+            "street1": "bdXBN",
+            "street2": "Ey4TO",
+            "locality": "Pv2Pl",
+            "region": "h71yx",
+            "postal": "TL0KT",
+            "countryCode": "5dquU",
+            "localCode": {
+              "code": "DWZ2J"
+            }
+          },
+          "planType": {
+            "code": "G6HsZ",
+            "label": "dkohB",
+            "codeSystem": "Vpqzk"
+          },
+          "insuredRelationship": {
+            "code": "RwoYp",
+            "label": "yunaP",
+            "codeSystem": "gc0oY"
+          },
+          "insuredDob": {
+            "value": "20230831"
+          },
+          "priorityString": "TWPBs",
+          "holderAddress": {
+            "street1": "bdXBN",
+            "street2": "Ey4TO",
+            "locality": "Pv2Pl",
+            "region": "h71yx",
+            "postal": "TL0KT",
+            "countryCode": "5dquU",
+            "localCode": {
+              "code": "DWZ2J"
+            }
+          },
+          "holderDob": {
+            "value": "20230831"
+          },
+          "holderName": {
+            "first": "8sjys",
+            "last": "uG7ES",
+            "middle": "UDd5H",
+            "suffix": "8tTkn",
+            "prefix": "BT3xH",
+            "degree": "a1YUJ"
+          }
+        }
+      ],
+      "guarantors": [
+        {
+          "guarantorNumber": "thbf0",
+          "guarantorType": "oDaqC",
+          "employerName": "VcBwN O4XI8 r1bfQ",
+          "employerAddress": {
+            "street1": "a3Sfj",
+            "street2": "TJZkH",
+            "locality": "w9XHt",
+            "region": "pxJsm",
+            "postal": "HFCTQ",
+            "countryCode": "oSpan",
+            "localCode": {
+              "code": "aZQ3Y"
+            }
+          },
+          "employerPhone": {
+            "communicationAddress": "7J7NC",
+            "type": "WORK"
+          },
+          "employeeId": "OcpOi",
+          "employmentStatus": "p2rsp",
+          "relationship": {
+            "code": "aNGSt",
+            "label": "qOgcl",
+            "codeSystem": "zgnVm"
+          },
+          "name": {
+            "first": "vHh0i",
+            "last": "Xcplz",
+            "middle": "blSFV",
+            "suffix": "Fxrgv",
+            "prefix": "bt4f9",
+            "degree": "6MOmT"
+          },
+          "birthdate": {
+            "value": "20210831"
+          },
+          "gender": {
+            "code": "sxNII",
+            "label": "u8jhk",
+            "codeSystem": "7I3Cz"
+          },
+          "maritalStatus": {
+            "code": "STyvq",
+            "label": "3QugA",
+            "codeSystem": "sbWa6"
+          },
+          "address": {
+            "street1": "0CSoo",
+            "street2": "q7CR5",
+            "locality": "5r4Dj",
+            "region": "Pc6av",
+            "postal": "lsMBL",
+            "countryCode": "JHKi8",
+            "localCode": {
+              "code": "mbBpJ"
+            }
+          },
+          "homePhone": {
+            "communicationAddress": "5T2j9",
+            "type": "HOME"
+          },
+          "businessPhone": {
+            "communicationAddress": "Ky9kC",
+            "type": "WORK"
+          },
+          "ssn": "Shrl5",
+          "started": {
+            "value": "20200831"
+          },
+          "ended": {
+            "value": "20190831"
+          }
+        }
+      ],
+      "nextOfKins": [
+        {
+          "relationship": {
+            "code": "FCH",
+            "label": "Foster child"
+          },
+          "name": {
+            "first": "Daisey",
+            "last": "Waisner"
+          },
+          "address": {
+            "street1": "1376 Indian Orchard",
+            "street2": "Apt 015",
+            "locality": "Moulton",
+            "region": "MI",
+            "postal": "72906",
+            "countryCode": "US"
+          },
+          "homePhone": {
+            "communicationAddress": "(031) 933-1139",
+            "localCode": {
+              "code": "HP",
+              "label": "HP"
+            },
+            "type": "HOME"
+          },
+          "businessPhone": {
+            "communicationAddress": "(949) 433-0048",
+            "localCode": {
+              "code": "WP",
+              "label": "WP"
+            },
+            "type": "WORK"
+          }
+        }
+      ],
+      "consents": [
+        {
+          "consentType": "DATA_SOURCE",
+          "consentValue": "OPT_IN",
+          "startTime": {
+            "value": "19990831"
+          },
+          "endTime": {
+            "value": "20000831"
+          },
+          "createdOn": {
+            "value": "20010831"
+          },
+          "location": "Qn7Lk",
+          "targetDataSourceIdentifier": "LAB1"
+        }
+      ],
+      "careFacilities": [
+        {
+          "patientLocalId": "ABut0",
+          "facilityId": "EecTg",
+          "facilityName": "A0rZe"
+        }
+      ],
+      "careProviders": [
+        {
+          "role": "SECONDARY",
+          "name": {
+            "first": "Shirley",
+            "last": "Ulichney"
+          },
+          "specialties": [],
+          "localProviderData": [],
+          "startDate": {
+            "value": "19861121"
+          },
+          "endDate": {
+            "value": "20131120"
+          }
+        },
+        {
+          "role": "PRIMARY",
+          "name": {
+            "first": "LAhJl",
+            "last": "OTaHN",
+            "middle": "aZVvI",
+            "suffix": "emoRW",
+            "prefix": "zFmQU",
+            "degree": "bjHRk"
+          },
+          "localProviderData": [
+            {
+              "localId": "QOs1o",
+              "type": "SourceId",
+              "system": "ssSxR"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "QOs1o",
+              "system": "ssSxR"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "studentIndicator": {
+        "code": "cJ9B7",
+        "label": "mdEOd",
+        "codeSystem": "wiUU8"
+      }
+    }
+  },
+  "relatedItem": [
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "activityTime.value": "2012-04-19T00:00:00",
+            "itemCode.code": "w0zce",
+            "localId": "joDYI",
+            "diagnosisType": "XRyOR",
+            "priority": "ldbtV"
+          },
+          "resource": "conditions"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    },
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "localId": "if6AR"
+          },
+          "resource": "medications"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    },
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "localId": "6afc2"
+          },
+          "resource": "immunizations"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    },
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "activityTime.value": "20020831",
+            "itemCode.code": "MToQz",
+            "localId": "MToQz",
+            "subCode": "SAyyV"
+          },
+          "resource": "vital-signs"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    },
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "localId": "jT6pT"
+          },
+          "resource": "results"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    },
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "localId": "5i3pK"
+          },
+          "resource": "procedures"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    },
+    {
+      "relationOp": "add",
+      "resource": "related-items",
+      "identifier": [
+        {
+          "identifier": {
+            "activityTime.value": "20050831",
+            "itemCode.code": "5ukvg"
+          },
+          "resource": "accidents"
+        },
+        {
+          "identifier": {
+            "localId": "PTre4"
+          },
+          "resource": "encounters"
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "identifier": {
+      "localId": "X4idNYQ4mD"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "encounters",
+    "value": {
+      "subjectClass": {
+        "code": "R",
+        "label": "Recurring patient"
+      },
+      "admissionType": {
+        "code": "A",
+        "label": "Accident"
+      },
+      "assignedLocation": {
+        "facility": "LAB_L"
+      },
+      "reason": {
+        "code": "Thyroid_storm",
+        "label": "Thyroid storm",
+        "translations": [
+          {
+            "code": "Thyroid_storm",
+            "label": "Thyroid storm"
+          }
+        ]
+      },
+      "attendingProviders": [
+        {
+          "name": {
+            "first": "Shalon",
+            "last": "Etlinger"
+          },
+          "localProviderData": [
+            {
+              "localId": "1000074706",
+              "type": "NPI",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "1000074706",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "roleTypeCode": {
+            "code": "ATND",
+            "label": "Attender",
+            "codeSystem": "2.16.840.1.113883.5.90",
+            "codeSystemLabel": "ParticipationType"
+          },
+          "representedOrganization": {
+            "identifiers": [
+              {
+                "value": "LAB3",
+                "system": "LAB3"
+              }
+            ],
+            "names": ["LAB3"],
+            "addresses": [],
+            "telecoms": []
+          }
+        }
+      ],
+      "referringProvider": {
+        "name": {
+          "first": "Harvey",
+          "last": "Schlagheck"
+        },
+        "localProviderData": [
+          {
+            "localId": "1000062792",
+            "type": "NPI",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "1000062792",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "roleTypeCode": {
+          "code": "REF",
+          "label": "Referrer",
+          "codeSystem": "2.16.840.1.113883.5.90",
+          "codeSystemLabel": "ParticipationType"
+        },
+        "representedOrganization": {
+          "identifiers": [
+            {
+              "value": "LAB3",
+              "system": "LAB3"
+            }
+          ],
+          "names": ["LAB3"],
+          "addresses": [],
+          "telecoms": []
+        }
+      },
+      "consultingProviders": [
+        {
+          "name": {
+            "first": "Chau",
+            "last": "Meiselman"
+          },
+          "localProviderData": [
+            {
+              "localId": "1000099117",
+              "type": "NPI",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "1000099117",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "roleTypeCode": {
+            "code": "CON",
+            "label": "Consultant",
+            "codeSystem": "2.16.840.1.113883.5.90",
+            "codeSystemLabel": "ParticipationType"
+          },
+          "representedOrganization": {
+            "identifiers": [
+              {
+                "value": "LAB3",
+                "system": "LAB3"
+              }
+            ],
+            "names": ["LAB3"],
+            "addresses": [],
+            "telecoms": []
+          }
+        }
+      ],
+      "admittingProvider": {
+        "name": {
+          "first": "Ali",
+          "last": "Tenpenny"
+        },
+        "localProviderData": [
+          {
+            "localId": "1000056315",
+            "type": "NPI",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "1000056315",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "roleTypeCode": {
+          "code": "ADM",
+          "label": "Admitter",
+          "codeSystem": "2.16.840.1.113883.5.90",
+          "codeSystemLabel": "ParticipationType"
+        },
+        "representedOrganization": {
+          "identifiers": [
+            {
+              "value": "LAB3",
+              "system": "LAB3"
+            }
+          ],
+          "names": ["LAB3"],
+          "addresses": [],
+          "telecoms": []
+        }
+      },
+      "involvedProviders": [],
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "serviceDeliveryLocations": [
+        {
+          "addresses": [],
+          "names": ["LAB_L"],
+          "telecoms": []
+        }
+      ],
+      "identifiers": [
+        {
+          "value": "X4idNYQ4mD",
+          "system": "LAB3"
+        }
+      ],
+      "itemCode": {
+        "code": "R",
+        "label": "Recurring patient"
+      },
+      "startTime": {
+        "value": "20180821"
+      },
+      "endTime": {
+        "value": "20131109"
+      },
+      "availabilityTime": {
+        "value": "20240623070322Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "identifiers": [],
+          "representedOrganization": {
+            "identifiers": [
+              {
+                "value": "LAB3",
+                "system": "LAB3"
+              }
+            ],
+            "names": ["LAB3"],
+            "addresses": [],
+            "telecoms": []
+          },
+          "telecoms": []
+        }
+      ],
+      "authors": []
+    }
+  },
+  "encounter_ER": {
+    "identifier": {
+      "localId": "bPj8VzLdYv"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "encounters",
+    "value": {
+      "subjectClass": {
+        "code": "B",
+        "label": "Obstetrics"
+      },
+      "admissionType": {
+        "code": "E",
+        "label": "Emergency"
+      },
+      "assignedLocation": {
+        "facility": "LAB_Y"
+      },
+      "subjectType": "Subject Type",
+      "admitSource": "Transfer from a hospital",
+      "ambulatoryStatus": "B1",
+      "reason": {
+        "code": "Admit Reason",
+        "label": "Admit Reason"
+      },
+      "attendingProviders": [
+        {
+          "name": {
+            "first": "Yuriko",
+            "last": "Prim"
+          },
+          "localProviderData": [
+            {
+              "localId": "1000073468",
+              "type": "NPI",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "1000073468",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB2"]
+          }
+        }
+      ],
+      "referringProvider": {
+        "name": {
+          "first": "Norah",
+          "last": "Lenk"
+        },
+        "localProviderData": [
+          {
+            "localId": "1000049526",
+            "type": "NPI",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "1000049526",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB2"]
+        }
+      },
+      "consultingProviders": [
+        {
+          "name": {
+            "first": "Willy",
+            "last": "Gante"
+          },
+          "localProviderData": [
+            {
+              "localId": "1000000461",
+              "type": "NPI",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "1000000461",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB2"]
+          }
+        }
+      ],
+      "admittingProvider": {
+        "name": {
+          "first": "Janean",
+          "last": "Hamor"
+        },
+        "localProviderData": [
+          {
+            "localId": "1000021343",
+            "type": "NPI",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "1000021343",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB2"]
+        }
+      },
+      "assignedFacility": {
+        "globalId": "LAB_Y",
+        "label": "LAB_Y"
+      },
+      "dischargeDisposition": "21",
+      "dischargedToLocation": "Discharged to some other location",
+      "alternateId": "ENCOUNTER-ALTERNATE-ID",
+      "identifiers": [
+        {
+          "value": "bPj8VzLdYv",
+          "system": "LAB2"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "PUL",
+        "label": "Pulmonary Service"
+      },
+      "startTime": {
+        "value": "20220420"
+      },
+      "activityTime": {
+        "value": "202206221006"
+      },
+      "availabilityTime": {
+        "value": "20220622045407Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB2"]
+          }
+        }
+      ],
+      "attachments": [
+        {
+          "localId": "Transcription 1",
+          "mimeType": "text/plain",
+          "s3Key": "3a68b92c-6180-49a8-9a92-fd10eaa818a2",
+          "fileSize": 48,
+          "filename": "attachment"
+        }
+      ]
+    }
+  },
+  "encounter_IN": {
+    "identifier": {
+      "localId": "F0qUj0p6mJ"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "encounters",
+    "value": {
+      "subjectClass": {
+        "code": "I",
+        "label": "Inpatient"
+      },
+      "admissionType": {
+        "code": "N",
+        "label": "Newborn"
+      },
+      "assignedLocation": {
+        "facility": "LAB_M"
+      },
+      "reason": {
+        "code": "Malnutrition_and_starvation",
+        "label": "Malnutrition and starvation",
+        "translations": [
+          {
+            "code": "Malnutrition_and_starvation",
+            "label": "Malnutrition and starvation"
+          }
+        ]
+      },
+      "attendingProviders": [
+        {
+          "name": {
+            "first": "Cory",
+            "last": "Mineard"
+          },
+          "localProviderData": [
+            {
+              "localId": "1000032092",
+              "type": "NPI",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "1000032092",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "roleTypeCode": {
+            "code": "ATND",
+            "label": "Attender",
+            "codeSystem": "2.16.840.1.113883.5.90",
+            "codeSystemLabel": "ParticipationType"
+          },
+          "representedOrganization": {
+            "identifiers": [
+              {
+                "value": "LAB1",
+                "system": "LAB1"
+              }
+            ],
+            "names": ["LAB1"],
+            "addresses": [],
+            "telecoms": []
+          }
+        }
+      ],
+      "referringProvider": {
+        "name": {
+          "first": "Maria",
+          "last": "Peruch"
+        },
+        "localProviderData": [
+          {
+            "localId": "1000003127",
+            "type": "NPI",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "1000003127",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "roleTypeCode": {
+          "code": "REF",
+          "label": "Referrer",
+          "codeSystem": "2.16.840.1.113883.5.90",
+          "codeSystemLabel": "ParticipationType"
+        },
+        "representedOrganization": {
+          "identifiers": [
+            {
+              "value": "LAB1",
+              "system": "LAB1"
+            }
+          ],
+          "names": ["LAB1"],
+          "addresses": [],
+          "telecoms": []
+        }
+      },
+      "consultingProviders": [
+        {
+          "name": {
+            "first": "Fabiola",
+            "last": "Duroy"
+          },
+          "localProviderData": [
+            {
+              "localId": "1000059772",
+              "type": "NPI",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "1000059772",
+              "system": "2.16.840.1.113883.4.6",
+              "assigningAuthorityName": "NPI"
+            }
+          ],
+          "roleTypeCode": {
+            "code": "CON",
+            "label": "Consultant",
+            "codeSystem": "2.16.840.1.113883.5.90",
+            "codeSystemLabel": "ParticipationType"
+          },
+          "representedOrganization": {
+            "identifiers": [
+              {
+                "value": "LAB1",
+                "system": "LAB1"
+              }
+            ],
+            "names": ["LAB1"],
+            "addresses": [],
+            "telecoms": []
+          }
+        }
+      ],
+      "admittingProvider": {
+        "name": {
+          "first": "Adina",
+          "last": "Homrighausen"
+        },
+        "localProviderData": [
+          {
+            "localId": "1000049773",
+            "type": "NPI",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "1000049773",
+            "system": "2.16.840.1.113883.4.6",
+            "assigningAuthorityName": "NPI"
+          }
+        ],
+        "roleTypeCode": {
+          "code": "ADM",
+          "label": "Admitter",
+          "codeSystem": "2.16.840.1.113883.5.90",
+          "codeSystemLabel": "ParticipationType"
+        },
+        "representedOrganization": {
+          "identifiers": [
+            {
+              "value": "LAB1",
+              "system": "LAB1"
+            }
+          ],
+          "names": ["LAB1"],
+          "addresses": [],
+          "telecoms": []
+        }
+      },
+      "involvedProviders": [],
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "serviceDeliveryLocations": [
+        {
+          "addresses": [],
+          "names": ["LAB_M"],
+          "telecoms": []
+        }
+      ],
+      "identifiers": [
+        {
+          "value": "F0qUj0p6mJ",
+          "system": "LAB1"
+        }
+      ],
+      "itemCode": {
+        "code": "I",
+        "label": "Inpatient"
+      },
+      "startTime": {
+        "value": "20210809"
+      },
+      "availabilityTime": {
+        "value": "20240623070322Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "identifiers": [],
+          "representedOrganization": {
+            "identifiers": [
+              {
+                "value": "LAB1",
+                "system": "LAB1"
+              }
+            ],
+            "names": ["LAB1"],
+            "addresses": [],
+            "telecoms": []
+          },
+          "telecoms": []
+        }
+      ],
+      "authors": []
+    }
+  },
+  "encounter_OTHER": {
+    "identifier": {
+      "localId": "PTre4"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "encounters",
+    "value": {
+      "subjectClass": {
+        "code": "4yx9R",
+        "label": "DFGI6",
+        "codeSystem": "AxgC3"
+      },
+      "admissionType": {
+        "code": "jIz1H",
+        "label": "03QX8",
+        "codeSystem": "iebfO"
+      },
+      "assignedLocation": {
+        "locationIdentifier": "MhHYE",
+        "pointOfCare": "U1Kfk",
+        "room": "nYhgK",
+        "bed": "0zUud",
+        "facility": "SStWw",
+        "status": "Oix7J",
+        "locationType": "cW4Lr",
+        "building": "CjiEb",
+        "floor": "F5eTs",
+        "description": "r80Cl"
+      },
+      "priorLocation": {
+        "locationIdentifier": "N6RZr",
+        "pointOfCare": "EpsyW",
+        "room": "VEC0r",
+        "bed": "jHiad",
+        "facility": "hfQdq",
+        "status": "2ibLy",
+        "locationType": "CRbhX",
+        "building": "oiZgv",
+        "floor": "a2MTJ",
+        "description": "E387X"
+      },
+      "subjectType": "Y0Nru",
+      "preadmitNumber": "C8Z7k",
+      "admitSource": "SvUSC",
+      "ambulatoryStatus": "d0HyC",
+      "reason": {
+        "code": "fhdAW",
+        "label": "zEkHF",
+        "codeSystem": "y0Q7D"
+      },
+      "attendingProviders": [
+        {
+          "name": {
+            "first": "UkDaJ",
+            "last": "3yqmZ",
+            "middle": "JfIMf",
+            "suffix": "RU0YT",
+            "prefix": "JQpKn",
+            "degree": "dMnqz"
+          },
+          "localProviderData": [
+            {
+              "localId": "7QYln",
+              "type": "SourceId",
+              "system": "qyyRj"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "7QYln",
+              "system": "qyyRj"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "referringProvider": {
+        "name": {
+          "first": "vYPTR",
+          "last": "TWGUg",
+          "middle": "hE2T3",
+          "suffix": "EDNK4",
+          "prefix": "hgFEB",
+          "degree": "m4IXu"
+        },
+        "localProviderData": [
+          {
+            "localId": "LFxqh",
+            "type": "SourceId",
+            "system": "lvqwS"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "LFxqh",
+            "system": "lvqwS"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "consultingProviders": [
+        {
+          "name": {
+            "first": "O2oGM",
+            "last": "D7lGq",
+            "middle": "ZZUvm",
+            "suffix": "BYg5w",
+            "prefix": "5SswH",
+            "degree": "LeqfS"
+          },
+          "localProviderData": [
+            {
+              "localId": "pwo6T",
+              "type": "SourceId",
+              "system": "QiTcM"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "pwo6T",
+              "system": "QiTcM"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "admittingProvider": {
+        "name": {
+          "first": "teyDC",
+          "last": "QVUkn",
+          "middle": "WQVws",
+          "suffix": "aSxXj",
+          "prefix": "FNoVm",
+          "degree": "NRtPx"
+        },
+        "localProviderData": [
+          {
+            "localId": "r6u1W",
+            "type": "SourceId",
+            "system": "TDKCn"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "r6u1W",
+            "system": "TDKCn"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "assignedFacility": {
+        "globalId": "SStWw",
+        "label": "r80Cl"
+      },
+      "priorFacility": {
+        "globalId": "hfQdq",
+        "label": "E387X"
+      },
+      "identifiers": [
+        {
+          "value": "PTre4",
+          "system": "T4X2n"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "vA4Gk",
+        "label": "LAgUx",
+        "codeSystem": "tjEHm"
+      },
+      "alternateCode": {
+        "code": "PDPJW",
+        "label": "KoIou",
+        "codeSystem": "kBXdg"
+      },
+      "notes": "A0rZe\n",
+      "activityTime": {
+        "value": "20221219"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "attachments": [
+        {
+          "localId": "cZ384",
+          "mimeType": "text/plain",
+          "s3Key": "2c02676c-8dcc-44f8-8b1a-dc3230b7b2b2",
+          "fileSize": 19,
+          "filename": "attachment"
+        }
+      ]
+    }
+  },
+  "allergies": {
+    "identifier": {
+      "localId": "eVFwC"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "allergies",
+    "value": {
+      "allergenType": {
+        "code": "g2tGc",
+        "label": "iZbis",
+        "codeSystem": "XXkEA"
+      },
+      "reactions": [
+        {
+          "interpretationCode": {
+            "code": "InterpretationCode",
+            "label": "Interpretation Code",
+            "usage": "REACTION_INTERPRETATION_CODE"
+          },
+          "medicationInterventionCode": {
+            "code": "MedicationInterventionCode",
+            "label": "Medication Intervention Code",
+            "usage": "REACTION_MEDICATION_INTERVENTION_CODE"
+          },
+          "procedureInterventionCode": {
+            "code": "ProcedureInterventionCode",
+            "label": "Procedure Intervention Code",
+            "usage": "REACTION_PROCEDURE_INTERVENTION_CODE"
+          },
+          "reactionType": {
+            "code": "ReactionType",
+            "label": "Reaction Type",
+            "usage": "ALLERGY_REACTION_TYPE"
+          },
+          "severity": {
+            "code": "Severity",
+            "label": "Severity",
+            "usage": "ALLERGY_REACTION_SEVERITY"
+          }
+        }
+      ],
+      "severity": {
+        "code": "r8Sam",
+        "label": "cLPIm",
+        "codeSystem": "sWPYY"
+      },
+      "statusCode": {
+        "code": "StatusCode",
+        "label": "Status Code",
+        "usage": "ALLERGY_STATUS_CODE"
+      },
+      "identifiers": [
+        {
+          "value": "eVFwC",
+          "system": "LAB1"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "eVFwC",
+        "label": "7yVZH",
+        "codeSystem": "W4mAt"
+      },
+      "alternateCode": {
+        "code": "MUMhK",
+        "label": "SF6dL",
+        "codeSystem": "5PBkY"
+      },
+      "description": "7yVZH",
+      "notes": "A0rZe\n",
+      "startTime": {
+        "value": "20050831"
+      },
+      "endTime": {
+        "value": "20060831"
+      },
+      "criticalityObservationValue": {
+        "code": "r8Same",
+        "label": "cLPIme",
+        "codeSystem": "sWPYYe"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "results": {
+    "identifier": {
+      "localId": "TESTACC222"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "results",
+    "value": {
+      "observationGroups": [
+        {
+          "requisitionNumber": "TESTACC222",
+          "diagnosticServiceSectionId": {
+            "code": "IMG",
+            "label": "IMG"
+          },
+          "identifiers": [
+            {
+              "value": "XR2 HIP COMPLETE RIGHT",
+              "system": "DEMO"
+            }
+          ],
+          "sequenceNumber": 1,
+          "localId": "XR2 HIP COMPLETE RIGHT",
+          "itemCode": {
+            "code": "XR2 HIP COMPLETE RIGHT",
+            "label": "XR2 HIP COMPLETE RIGHT"
+          },
+          "availabilityTime": {
+            "value": "20230310030845Z"
+          }
+        }
+      ],
+      "placerOrderNumber": "TESTACC222",
+      "fillerOrderNumber": "TESTACC222",
+      "quantityTiming": {},
+      "identifiers": [
+        {
+          "value": "TESTACC222",
+          "system": "DEMO"
+        }
+      ],
+      "sequenceNumber": 1,
+      "activityTime": {
+        "value": "20221130000000"
+      },
+      "availabilityTime": {
+        "value": "20230310030845Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["DEMO"]
+          }
+        }
+      ]
+    }
+  },
+  "results_OTHER": {
+    "identifier": {
+      "localId": "jT6pT"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "results",
+    "value": {
+      "reportedTime": {
+        "value": "20030831"
+      },
+      "observationGroups": [
+        {
+          "requisitionNumber": "6caEI",
+          "placerField1": "6k6Av",
+          "placerField2": "gQiQx",
+          "fillerField1": "m5H4w",
+          "fillerField2": "1PNnF",
+          "specimens": [
+            {
+              "collectionMethod": "6QZOm",
+              "collectionVolume": "w5307",
+              "collectionVolumeUnits": {
+                "code": "1nfvl"
+              },
+              "actionCode": "hvWEI",
+              "bodyLocation": {
+                "code": "SBh1r",
+                "label": "SBh1r"
+              },
+              "sequenceNumber": 1,
+              "localId": "TekIc",
+              "itemCode": {
+                "code": "97zo4",
+                "label": "ChsXn",
+                "codeSystem": "6QZOm"
+              },
+              "activityTime": {
+                "value": "20050831"
+              },
+              "availabilityTime": {
+                "value": "20241105040426Z"
+              }
+            },
+            {
+              "collectionMethod": "Dg5db",
+              "collectionVolume": "dZG3n",
+              "collectionVolumeUnits": {
+                "code": "lTiH4"
+              },
+              "actionCode": "2HOSX",
+              "bodyLocation": {
+                "code": "jWobz",
+                "label": "e2NwW",
+                "codeSystem": "SPHoH"
+              },
+              "identifiers": [
+                {
+                  "value": "wJIuE",
+                  "system": "LAB1"
+                },
+                {
+                  "value": "WDb9h",
+                  "system": "LAB1"
+                }
+              ],
+              "sequenceNumber": 1,
+              "localId": "wJIuE",
+              "itemCode": {
+                "code": "UZ25A",
+                "label": "WUpgN",
+                "codeSystem": "5FHB1"
+              },
+              "alternateCode": {
+                "code": "kAohh",
+                "label": "8mDMP",
+                "codeSystem": "nReIA"
+              },
+              "description": "4Gjot",
+              "activityTime": {
+                "value": "20050831"
+              },
+              "availabilityTime": {
+                "value": "20241105040426Z"
+              }
+            }
+          ],
+          "timings": [
+            {
+              "quantity": "KopLa",
+              "interval": "cR8fh",
+              "duration": "618y9",
+              "condition": "Ft0KU",
+              "startTime": {
+                "value": "20050831"
+              },
+              "endTime": {
+                "value": "20050831"
+              }
+            }
+          ],
+          "collectingProvider": {
+            "name": {
+              "first": "1BhN5",
+              "last": "LSNM1",
+              "middle": "Nmo7v",
+              "suffix": "7g2Nk",
+              "prefix": "59Unn",
+              "degree": "NGeOH"
+            },
+            "localProviderData": [
+              {
+                "localId": "UmULw",
+                "type": "SourceId",
+                "system": "V5ebD"
+              }
+            ],
+            "identifiers": [
+              {
+                "value": "UmULw",
+                "system": "V5ebD"
+              }
+            ],
+            "representedOrganization": {
+              "names": ["LAB1"]
+            }
+          },
+          "copyToProviders": [
+            {
+              "name": {
+                "first": "LRZ62",
+                "last": "osa9p",
+                "middle": "2Q9EV",
+                "suffix": "du4EB",
+                "prefix": "Hr5f3",
+                "degree": "3Q2yR"
+              },
+              "localProviderData": [
+                {
+                  "localId": "iYe9V",
+                  "type": "SourceId",
+                  "system": "2iFpo"
+                }
+              ],
+              "identifiers": [
+                {
+                  "value": "iYe9V",
+                  "system": "2iFpo"
+                }
+              ],
+              "representedOrganization": {
+                "names": ["LAB1"]
+              }
+            }
+          ],
+          "reportedTime": {
+            "value": "20050831"
+          },
+          "diagnosticServiceSectionId": {
+            "code": "Cmu9p",
+            "label": "O2jVZ",
+            "codeSystem": "Wr9wv"
+          },
+          "relevantClinicalInfo": {
+            "code": "9h4Ri",
+            "label": "MDWxc",
+            "codeSystem": "wSPWd"
+          },
+          "identifiers": [
+            {
+              "value": "TekIc",
+              "system": "LAB1"
+            }
+          ],
+          "sequenceNumber": 1,
+          "localId": "TekIc",
+          "itemCode": {
+            "code": "TekIc",
+            "label": "fub45",
+            "codeSystem": "3h9iz"
+          },
+          "alternateCode": {
+            "code": "fZfdv",
+            "label": "GMfAt",
+            "codeSystem": "gTk3Z"
+          },
+          "notes": "A0rZe\n",
+          "activityTime": {
+            "value": "20050831"
+          },
+          "availabilityTime": {
+            "value": "20241105040426Z"
+          },
+          "statusCode": {
+            "code": "Tp1ax",
+            "label": "hayzX",
+            "codeSystem": "8ySZb"
+          }
+        }
+      ],
+      "confidentialityCode": {
+        "code": "YWjJ3",
+        "label": "DU0M1",
+        "codeSystem": "4nEmm"
+      },
+      "placerOrderNumber": "jT6pT",
+      "fillerOrderNumber": "IBPQF",
+      "placerGroupNumber": "kshVv",
+      "verifyingProvider": {
+        "name": {
+          "first": "An9kh",
+          "last": "zJQai",
+          "middle": "uzNeq",
+          "suffix": "Swwxn",
+          "prefix": "J7Pmv",
+          "degree": "ZFimS"
+        },
+        "localProviderData": [
+          {
+            "localId": "ut59u",
+            "type": "SourceId",
+            "system": "W1KuI"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "ut59u",
+            "system": "W1KuI"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "orderingProvider": {
+        "name": {
+          "first": "Bt6qL",
+          "last": "DHgpE",
+          "middle": "AG8Ep",
+          "suffix": "HoaNf",
+          "prefix": "S9UPY",
+          "degree": "2vmnT"
+        },
+        "localProviderData": [
+          {
+            "localId": "Lzc2x",
+            "type": "SourceId",
+            "system": "vZjh3"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "Lzc2x",
+            "system": "vZjh3"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "orderStatus": {
+        "code": "5PDHW",
+        "label": "6MPOs",
+        "codeSystem": "4Zt84"
+      },
+      "enteringOrganization": {
+        "globalId": "bCSAj",
+        "label": "La08G"
+      },
+      "quantityTiming": {
+        "duration": "KvMId",
+        "lowTime": {
+          "value": "20050831"
+        },
+        "highTime": {
+          "value": "20050831"
+        },
+        "description": "l8R2f"
+      },
+      "authoringProviders": [
+        {
+          "name": {
+            "first": "x6Y8K",
+            "last": "x8Cqn",
+            "middle": "8X3wv",
+            "suffix": "MgIH6",
+            "prefix": "0AaX5",
+            "degree": "0JlTr"
+          },
+          "localProviderData": [
+            {
+              "localId": "gdFP0",
+              "type": "SourceId",
+              "system": "7Lx4N"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "gdFP0",
+              "system": "7Lx4N"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "identifiers": [
+        {
+          "value": "jT6pT",
+          "system": "LAB1"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "EGYXs",
+        "label": "xUuUw",
+        "codeSystem": "jDn1P"
+      },
+      "description": "jDn1P",
+      "notes": "A0rZe\n",
+      "activityTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "statusCode": {
+        "code": "Xk84c",
+        "label": "0LHnL",
+        "codeSystem": "zAUEA"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "medications": {
+    "identifier": {
+      "localId": "if6AR"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "medications",
+    "value": {
+      "instructions": {
+        "instructions": "5 days"
+      },
+      "description": "5 days",
+      "sig": "5 days",
+      "expirationDate": {
+        "value": "20050831"
+      },
+      "statusCode": {
+        "code": "value"
+      },
+      "fillMethod": "drop",
+      "strength": "5QU8V",
+      "route": {
+        "code": "value"
+      },
+      "manufacturedLabeledDrug": {
+        "code": "once",
+        "description": "for iron"
+      },
+      "strengthUnit": {
+        "code": "mWLi2",
+        "label": "rndID",
+        "codeSystem": "cj9m2"
+      },
+      "productForm": {
+        "code": "l57Gz",
+        "label": "tpJ8b",
+        "codeSystem": "KWJMM"
+      },
+      "adminInstructions": "7PYnm xG43t",
+      "pharmacyName": "apollo",
+      "pharmacyInstructions": "A0Yqb k3rCm",
+      "refillsTotal": "AKJoO",
+      "refillsRemaining": "Mz4a2",
+      "prescribingProvider": {
+        "name": {
+          "first": "kd1zn",
+          "last": "qFXYY",
+          "middle": "nbUph",
+          "suffix": "iF5p3",
+          "prefix": "1f0CF",
+          "degree": "kUhX8"
+        },
+        "localProviderData": [
+          {
+            "localId": "0gnks",
+            "type": "SourceId",
+            "system": "j5YXC"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "0gnks",
+            "system": "j5YXC"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "medicationDoses": [
+        {
+          "doseQuantity": "FFotI",
+          "doseQuantityUnits": {
+            "code": "72xcZ",
+            "label": "XagCa",
+            "codeSystem": "vphul"
+          },
+          "frequency": {
+            "duration": "bkAnh",
+            "lowTime": {
+              "value": "20050831"
+            },
+            "highTime": {
+              "value": "20050831"
+            },
+            "description": "Icv9y",
+            "event": {
+              "code": "Ic"
+            }
+          }
+        }
+      ],
+      "identifiers": [
+        {
+          "value": "if6AR",
+          "system": "LAB1"
+        }
+      ],
+      "sequenceNumber": 0,
+      "itemCode": {
+        "code": "lW8ni",
+        "label": "0QYws",
+        "codeSystemLabel": "twice",
+        "codeSystem": "6zjv7"
+      },
+      "alternateCode": {
+        "code": "aq5Ew",
+        "label": "XAI3n",
+        "codeSystemLabel": "thrice",
+        "codeSystem": "2rOns"
+      },
+      "notes": "A0rZe\n",
+      "startTime": {
+        "value": "20050831"
+      },
+      "endTime": {
+        "value": "20050831"
+      },
+      "activityTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "prescriptions": {
+    "identifier": {
+      "localId": "e00d7584-3d0f-4bb9-9baa-2229cffdb07c"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "prescriptions",
+    "value": {
+      "numberOfRefills": "5",
+      "requestedDispenseAmount": "3",
+      "allowSubstitutions": "allowed",
+      "requestedGiveAmountMax": "3",
+      "requestedGiveAmountMin": "0",
+      "authoringProviders": [
+        {
+          "name": {
+            "first": "UkDaJ",
+            "last": "3yqmZ",
+            "middle": "JfIMf",
+            "suffix": "RU0YT",
+            "prefix": "JQpKn",
+            "degree": "dMnqz"
+          },
+          "localProviderData": [
+            {
+              "localId": "7QYln",
+              "type": "SourceId",
+              "system": "qyyRj"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "7QYln",
+              "system": "qyyRj"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "orderingProvider": {
+        "name": {
+          "first": "vYPTR",
+          "last": "TWGUg",
+          "middle": "hE2T3",
+          "suffix": "EDNK4",
+          "prefix": "hgFEB",
+          "degree": "m4IXu"
+        },
+        "localProviderData": [
+          {
+            "localId": "LFxqh",
+            "type": "SourceId",
+            "system": "lvqwS"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "LFxqh",
+            "system": "lvqwS"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "verifyingProvider": {
+        "name": {
+          "first": "vYPTR",
+          "last": "TWGUg",
+          "middle": "hE2T3",
+          "suffix": "EDNK4",
+          "prefix": "hgFEB",
+          "degree": "m4IXu"
+        },
+        "localProviderData": [
+          {
+            "localId": "LFxqh",
+            "type": "SourceId",
+            "system": "lvqwS"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "LFxqh",
+            "system": "lvqwS"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "providerPharmacyInstructions": "Dosageform",
+      "providerAdminInstructions": "Dosageform",
+      "requestedGiveDosageForm": "Dosageform",
+      "requestedGiveStrengthUnits": {
+        "label": "label"
+      },
+      "statusCode": {
+        "label": "label"
+      },
+      "medicationRoutes": [
+        {
+          "administrationMethod": {
+            "label": "labe"
+          },
+          "routingInstruction": {
+            "label": "labe"
+          },
+          "administrationSite": {
+            "label": "labe"
+          },
+          "administrationSiteModifier": {
+            "label": "labe"
+          },
+          "administrationDevice": {
+            "label": "labe"
+          }
+        }
+      ],
+      "medicationDispenses": [
+        {
+          "dispenseCode": {
+            "label": "labe"
+          },
+          "dispenseTime": {
+            "value": "20050831"
+          },
+          "dispensingProvider": {
+            "name": {
+              "first": "vYPTR",
+              "last": "TWGUg",
+              "middle": "hE2T3",
+              "suffix": "EDNK4",
+              "prefix": "hgFEB",
+              "degree": "m4IXu"
+            },
+            "localProviderData": [
+              {
+                "localId": "LFxqh",
+                "type": "SourceId",
+                "system": "lvqwS"
+              }
+            ],
+            "identifiers": [
+              {
+                "value": "LFxqh",
+                "system": "lvqwS"
+              }
+            ],
+            "representedOrganization": {
+              "names": ["LAB1"]
+            }
+          },
+          "prescriptionNumber": "labe",
+          "refillsRemaining": "labe",
+          "totalDailyDoseQuantity": "labe",
+          "actualDispenseAmount": "labe"
+        }
+      ],
+      "interpretationCode": {
+        "code": "1656340",
+        "label": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+        "codeSystem": "2.16.840.1.113883.6.88",
+        "codeSystemLabel": "RxNORM",
+        "translations": [
+          {
+            "code": "1656340",
+            "label": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+            "codeSystem": "2.16.840.1.113883.6.88",
+            "codeSystemLabel": "RxNorm"
+          }
+        ]
+      },
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "identifiers": [
+        {
+          "value": "e00d7584-3d0f-4bb9-9baa-2229cffdb07c",
+          "system": "2.16.840.1.113883.3.464.1005.1"
+        }
+      ],
+      "itemCode": {
+        "code": "1656340",
+        "label": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+        "codeSystem": "2.16.840.1.113883.6.88",
+        "codeSystemLabel": "RxNORM",
+        "translations": [
+          {
+            "code": "1656340",
+            "label": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+            "codeSystem": "2.16.840.1.113883.6.88",
+            "codeSystemLabel": "RxNorm"
+          }
+        ]
+      },
+      "alternateCode": {
+        "code": "1656340",
+        "label": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+        "codeSystem": "2.16.840.1.113883.6.88",
+        "codeSystemLabel": "RxNorm"
+      },
+      "availabilityTime": {
+        "value": "20240920051936Z"
+      }
+    }
+  },
+  "conditions": {
+    "identifier": {
+      "activityTime.value": "2013-04-19T00:00:00",
+      "itemCode.code": "8GPgP",
+      "localId": "TQZaf"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "conditions",
+    "value": {
+      "conditionType": "PROBLEM",
+      "occurrenceType": "ACTIVE_PROBLEM",
+      "occurrenceTypes": ["ACTIVE_PROBLEM"],
+      "recordingProvider": {
+        "name": {
+          "first": "G7YIk",
+          "last": "4TGtt",
+          "middle": "NJOh3",
+          "suffix": "vPOaE",
+          "prefix": "gxJ4u",
+          "degree": "AIiLG"
+        },
+        "localProviderData": [
+          {
+            "localId": "KdHaw",
+            "type": "SourceId",
+            "system": "w6n5g"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "KdHaw",
+            "system": "w6n5g"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "diagnosingProvider": {
+        "name": {
+          "first": "Ehpgz",
+          "last": "n17Xm",
+          "middle": "K9M8z",
+          "suffix": "E2oGl",
+          "prefix": "H5ZF8",
+          "degree": "YCoA1"
+        },
+        "localProviderData": [
+          {
+            "localId": "ipYNd",
+            "type": "SourceId",
+            "system": "tHhKt"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "ipYNd",
+            "system": "tHhKt"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "diagnosedOn": {
+        "value": "20050831"
+      },
+      "anticipatedResolution": {
+        "value": "20050831"
+      },
+      "certainty": {
+        "code": "DNQ9R",
+        "label": "lhtX5",
+        "codeSystem": "B08FG"
+      },
+      "prognosis": {
+        "code": "gPhec",
+        "label": "c2IzW",
+        "codeSystem": "rrA7L"
+      },
+      "patientProblemAwareness": {
+        "code": "KT0aw",
+        "label": "yDkTR",
+        "codeSystem": "YpqM8"
+      },
+      "patientPrognosisAwareness": {
+        "code": "iELLn",
+        "label": "3JwRn",
+        "codeSystem": "GbL47"
+      },
+      "problemType": {
+        "code": "XDDgm",
+        "label": "XnNkx",
+        "codeSystem": "KEYOO"
+      },
+      "problemStatus": {
+        "code": "8QVfE",
+        "label": "cXoib",
+        "codeSystem": "eR1KH"
+      },
+      "familyAwareness": "beHs3",
+      "problemPersistence": {
+        "code": "IMu9O",
+        "label": "QHYFr",
+        "codeSystem": "Ptluk"
+      },
+      "confidentialityCode": {
+        "code": "JC7pd",
+        "label": "rRZCI",
+        "codeSystem": "ODnLy"
+      },
+      "identifiers": [
+        {
+          "value": "TQZaf",
+          "system": "ap32U",
+          "assigningAuthorityName": "9PD3K"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "label": "zcEbV",
+        "codeSystem": "TgosJ"
+      },
+      "alternateCode": {
+        "code": "swDAC",
+        "label": "DP7fa",
+        "codeSystem": "m5aTR"
+      },
+      "notes": "A0rZe\n",
+      "endTime": {
+        "value": "20050831"
+      },
+      "activityTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "statusCode": {
+        "code": "n10Og",
+        "label": "DQOKA",
+        "codeSystem": "Yl3en"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "condition_DIAGNOSIS": {
+    "identifier": {
+      "activityTime.value": "2012-04-19T00:00:00",
+      "itemCode.code": "w0zce",
+      "localId": "joDYI",
+      "diagnosisType": "XRyOR",
+      "priority": "ldbtV"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "conditions",
+    "value": {
+      "conditionType": "DIAGNOSIS",
+      "occurrenceType": "ACTIVE_PROBLEM",
+      "occurrenceTypes": ["ACTIVE_PROBLEM"],
+      "diagnosingProvider": {
+        "name": {
+          "first": "iWntq",
+          "last": "wE9nh",
+          "middle": "2Z5Xw",
+          "suffix": "1uTVv",
+          "prefix": "wCiCe",
+          "degree": "exl6X"
+        },
+        "localProviderData": [
+          {
+            "localId": "5Q7na",
+            "type": "SourceId",
+            "system": "ohamb"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "5Q7na",
+            "system": "ohamb"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "codeMethod": "QsXFN",
+      "classification": "7An7S",
+      "majorCategory": {
+        "code": "EFdqT",
+        "label": "heSWs",
+        "codeSystem": "XOxRI"
+      },
+      "relatedGroup": {
+        "code": "5ttOh",
+        "label": "7B8I5",
+        "codeSystem": "fJ7oC"
+      },
+      "actionCode": "M3uua",
+      "identifiers": [
+        {
+          "value": "joDYI",
+          "system": "gSjbB",
+          "assigningAuthorityName": "IxUnI"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "label": "AuYnT",
+        "codeSystem": "OQR9N"
+      },
+      "alternateCode": {
+        "code": "Vf8bH",
+        "label": "mYhxm",
+        "codeSystem": "OvZAo"
+      },
+      "description": "PO7m6",
+      "notes": "A0rZe\nA0rZe\n",
+      "activityTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "vital-signs": {
+    "identifier": {
+      "activityTime.value": "20020831",
+      "itemCode.code": "MToQz",
+      "localId": "MToQz",
+      "subCode": "SAyyV"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "vital-signs",
+    "value": {
+      "performingFacility": {
+        "globalId": "LAB_R",
+        "label": "Lab R"
+      },
+      "methodCode": {
+        "code": "66jip",
+        "label": "Oiclg",
+        "codeSystem": "xVzMW"
+      },
+      "value": "H5Scm",
+      "valueType": "nCqqf",
+      "referenceRange": "kk1M5",
+      "units": {
+        "code": "M8FbN",
+        "label": "xUdgd",
+        "codeSystem": "f0zBF"
+      },
+      "observingProvider": {
+        "name": {
+          "first": "L0MYc",
+          "last": "iuClr",
+          "middle": "MdrBu",
+          "suffix": "2Qsj2",
+          "prefix": "ZEWib",
+          "degree": "a8u4A"
+        },
+        "localProviderData": [
+          {
+            "localId": "Teb5G",
+            "type": "SourceId",
+            "system": "vtzVn"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "Teb5G",
+            "system": "vtzVn"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["KWa78"]
+        }
+      },
+      "interpretationCode": {
+        "code": "ZpYYn",
+        "label": "PKVJW",
+        "codeSystem": "0lRfy"
+      },
+      "identifiers": [
+        {
+          "value": "MToQz",
+          "system": "LAB1"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "label": "Ai8yG",
+        "codeSystem": "0D1Mo"
+      },
+      "alternateCode": {
+        "code": "BsVhY",
+        "label": "1gWgk",
+        "codeSystem": "h1lDc"
+      },
+      "notes": "A0rZe\n",
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "statusCode": {
+        "code": "H2hgt",
+        "label": "VPxaI",
+        "codeSystem": "lm3vS"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["KWa78"]
+          }
+        }
+      ]
+    }
+  },
+  "external-documents": {
+    "identifier": {
+      "localId": "2.16.88.1.113883054"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "external-documents",
+    "value": {
+      "document": {
+        "attachmentType": "CDA",
+        "mimeType": "text/xml",
+        "filename": "Episode Note54.xml",
+        "name": "Summarization of Episode Note",
+        "s3Key": "aff0d0ca-1c95-4237-beff-f7591c60710b",
+        "fileSize": 251980
+      },
+      "entryUUID": "urn:uuid:5ee71be6-54f1-4577-b65f-c6e7abdae6d0",
+      "creationTime": {
+        "value": "20220517112355"
+      },
+      "hash": "36d2bb3d9b0c6622099cd2e26610aa220e1b463a",
+      "languageCode": "en-US",
+      "authors": [
+        {
+          "institutions": ["Mirth"]
+        }
+      ],
+      "classCode": {
+        "code": "34133-9",
+        "label": "Summarization of Episode Note",
+        "codeSystem": "2.16.840.1.113883.6.1"
+      },
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "formatCode": {
+        "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1",
+        "label": "For documents following C-CDA constraints using a structured body",
+        "codeSystem": "1.3.6.1.4.1.19376.1.2.3"
+      },
+      "healthcareFacilityTypeCode": {
+        "code": "394777002",
+        "label": "Health Encounter Site",
+        "codeSystem": "2.16.840.1.113883.6.96"
+      },
+      "practiceSettingCode": {
+        "code": "394802001",
+        "label": "General Medicine",
+        "codeSystem": "2.16.840.1.113883.6.96"
+      },
+      "typeCode": {
+        "code": "34133-9",
+        "label": "Summarization of Episode Note",
+        "codeSystem": "2.16.840.1.113883.6.1"
+      },
+      "objectType": "STABLE"
+    }
+  },
+  "accidents": {
+    "identifier": {
+      "activityTime.value": "20050831",
+      "itemCode.code": "5ukvg"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "accidents",
+    "value": {
+      "location": "4O9Je",
+      "accidentState": "xd251",
+      "jobRelated": false,
+      "deadly": false,
+      "enteredBy": {
+        "name": {
+          "first": "Q7JNF",
+          "last": "uyeSG",
+          "middle": "uhazC",
+          "suffix": "Xd0oD",
+          "prefix": "bAqwz",
+          "degree": "qza1k"
+        },
+        "localProviderData": [
+          {
+            "localId": "zxH3r",
+            "type": "SourceId",
+            "system": "1Xx9P"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "zxH3r",
+            "system": "1Xx9P"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "broughtInBy": "0bZa5",
+      "policeNotified": false,
+      "address": {
+        "street1": "kE9vZ",
+        "street2": "WdgTf",
+        "locality": "fbnN0",
+        "region": "vAVmW",
+        "postal": "haSSg",
+        "countryCode": "l6DVW",
+        "localCode": {
+          "code": "Z45kc"
+        }
+      },
+      "sequenceNumber": 1,
+      "itemCode": {
+        "label": "KCpMQ",
+        "codeSystem": "xueAP"
+      },
+      "alternateCode": {
+        "code": "QUgyh",
+        "label": "btmNh",
+        "codeSystem": "fDnUn"
+      },
+      "description": "TzBro",
+      "notes": "A0rZe\n",
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "dme": {
+    "identifier": {
+      "localId": "MedicalDeviceModel1-1Id54"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "medical-devices",
+    "value": {
+      "quantity": "10",
+      "productModel": {
+        "name": "device name",
+        "manufacturerModelName": "usha",
+        "softwareName": "amazon",
+        "activityTime": {
+          "value": "202203211857"
+        },
+        "localId": "(01)51022222233336(11)141231(17)150707(10)A213B1(21)1234",
+        "localCode": {
+          "code": "90412006",
+          "label": "Colonoscope",
+          "codeSystem": "2.16.840.1.113883.6.96"
+        },
+        "scopingId": "2.16.840.1.113883.3.3719"
+      },
+      "instructions": {
+        "instructions": "Instructions",
+        "patientEducation": {
+          "code": "311401005",
+          "label": "Patient Education",
+          "codeSystem": "2.16.840.1.113883.6.96",
+          "codeSystemLabel": "SNOMED CT"
+        }
+      },
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "identifiers": [
+        {
+          "value": "MedicalDeviceModel1-1Id",
+          "system": "1.2.3.4.5.1"
+        }
+      ],
+      "itemCode": {
+        "code": "Code",
+        "label": "HDH_Vajra54",
+        "codeSystem": "1.1000.1"
+      },
+      "alternateCode": {
+        "code": "AlternateCode",
+        "label": "Alternate Label",
+        "codeSystem": "1.1000.1"
+      },
+      "description": "Description",
+      "notes": "Notes",
+      "startTime": {
+        "value": "20170101000000+0100"
+      },
+      "endTime": {
+        "value": "20200101000000+0100"
+      },
+      "availabilityTime": {
+        "value": "202203211857"
+      },
+      "statusCode": {
+        "code": "completed"
+      },
+      "moodCode": {
+        "code": "EVN",
+        "label": "EVN"
+      },
+      "repeats": 3,
+      "repeatsLow": 1,
+      "repeatsHigh": 4,
+      "expectedUseTime": {
+        "duration": "4",
+        "period": "twice",
+        "standardDeviation": "standard",
+        "lowTime": {
+          "value": "20050831"
+        },
+        "effectiveTime": {
+          "value": "20050831"
+        },
+        "highTime": {
+          "value": "20050831"
+        }
+      },
+      "comments": [
+        {
+          "notes": "Comments"
+        }
+      ]
+    }
+  },
+  "procedures": {
+    "identifier": {
+      "localId": "5i3pK"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "procedures",
+    "value": {
+      "codeMethod": "rAfYo",
+      "functionalType": "7TpoM",
+      "duration": "yzOwq",
+      "anesthesiaCode": "Z3rxl",
+      "anesthesiaDuration": "EKWqc",
+      "priority": "Ubkru",
+      "actionCode": "JqrVN",
+      "anesthesiologist": {
+        "name": {
+          "first": "0McLn",
+          "last": "xinRA",
+          "middle": "izS5i",
+          "suffix": "kMCES",
+          "prefix": "PRTpt",
+          "degree": "pIW2O"
+        },
+        "localProviderData": [
+          {
+            "localId": "0bHxg",
+            "type": "SourceId",
+            "system": "IicBE"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "0bHxg",
+            "system": "IicBE"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "surgeon": {
+        "name": {
+          "first": "W3c14",
+          "last": "MGiY3",
+          "middle": "RCMz6",
+          "suffix": "rFR4q",
+          "prefix": "SNrW5",
+          "degree": "OZ4ns"
+        },
+        "localProviderData": [
+          {
+            "localId": "N3snC",
+            "type": "SourceId",
+            "system": "FFgLA"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "N3snC",
+            "system": "FFgLA"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "procedureProvider": {
+        "name": {
+          "first": "AzBXK",
+          "last": "yiw5n",
+          "middle": "FAvNC",
+          "suffix": "BA3pm",
+          "prefix": "4WFd9",
+          "degree": "OF8sJ"
+        },
+        "localProviderData": [
+          {
+            "localId": "Ua9MB",
+            "type": "SourceId",
+            "system": "MaqSF"
+          }
+        ],
+        "identifiers": [
+          {
+            "value": "Ua9MB",
+            "system": "MaqSF"
+          }
+        ],
+        "representedOrganization": {
+          "names": ["LAB1"]
+        }
+      },
+      "procedureFacility": {
+        "globalId": "SStWw",
+        "label": "r80Cl"
+      },
+      "codeModifiers": [
+        {
+          "code": "vxIMI",
+          "label": "en6HN",
+          "codeSystem": "nNHyV"
+        }
+      ],
+      "identifiers": [
+        {
+          "value": "5i3pK",
+          "system": "Ub6Q4",
+          "assigningAuthorityName": "d5SDd"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "pHzcO",
+        "label": "BFGp9",
+        "codeSystem": "OTHGR"
+      },
+      "alternateCode": {
+        "code": "cgmOn",
+        "label": "q64yM",
+        "codeSystem": "pAYQT"
+      },
+      "description": "A61S6",
+      "notes": "A0rZe\n",
+      "activityTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "immunizations": {
+    "identifier": {
+      "localId": "6afc2"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "immunizations",
+    "value": {
+      "lotNumber": "GWwQk",
+      "route": {
+        "label": "name"
+      },
+      "refused": true,
+      "reactions": [
+        {
+          "reactionType": {
+            "label": "label"
+          }
+        }
+      ],
+      "administeredAtLocation": "H4go2",
+      "dose": "fByBV",
+      "doseForm": {
+        "code": "RZPXq",
+        "label": "OvmNE",
+        "codeSystem": "jve9m"
+      },
+      "doseUnits": {
+        "code": "POFnQ",
+        "label": "AbFNz",
+        "codeSystem": "omKIH"
+      },
+      "strength": "0obu5",
+      "strengthUnits": {
+        "code": "AkCIp",
+        "label": "ourNI",
+        "codeSystem": "Q1n2J"
+      },
+      "vfcFinancialClass": {
+        "code": "jYaQt",
+        "label": "T29KO",
+        "codeSystem": "oX02U"
+      },
+      "administeringProviders": [
+        {
+          "name": {
+            "first": "YiNZd",
+            "last": "RJCZ8",
+            "middle": "4Ypy7",
+            "suffix": "3JdbB",
+            "prefix": "HT2PL",
+            "degree": "ZJj3U"
+          },
+          "localProviderData": [
+            {
+              "localId": "DC7He",
+              "type": "SourceId",
+              "system": "7gODJ"
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "DC7He",
+              "system": "7gODJ"
+            }
+          ],
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ],
+      "manufacturerOrganization": {
+        "code": "1XS6i",
+        "label": "0fTBi",
+        "codeSystem": "3StmF"
+      },
+      "immunizationStatements": [
+        {
+          "statementCode": {
+            "code": "6afc2",
+            "label": "XEI7k",
+            "codeSystem": "uRe1W"
+          }
+        }
+      ],
+      "substanceExpirationDate": {
+        "value": "20050831"
+      },
+      "identifiers": [
+        {
+          "value": "6afc2",
+          "system": "LAB1"
+        }
+      ],
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "Fjg5h",
+        "description": "description",
+        "label": "4UtLs",
+        "codeSystem": "9fWxa"
+      },
+      "alternateCode": {
+        "code": "1AqJy",
+        "label": "RVmOJ",
+        "codeSystem": "3l3Hd"
+      },
+      "notes": "A0rZe\nA0rZe\nA0rZe\n",
+      "startTime": {
+        "value": "20050831"
+      },
+      "endTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "statusCode": {
+        "code": "8aPKr",
+        "label": "6lyJ3",
+        "codeSystem": "SD1B2"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "physical-exams": {
+    "identifier": {
+      "localId": "PE12354"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "physical-exams",
+    "value": {
+      "statusCode": {
+        "code": "value"
+      },
+      "localPatient": "32458",
+      "itemCode": {
+        "code": "2dfds13123",
+        "label": "PhysicalExam54",
+        "usage": "OBSERVATION_UNITS",
+        "codeSystem": "My Code System",
+        "description": "This is description",
+        "codeSystemLabel": "My Code"
+      },
+      "alternateCode": {
+        "code": "725034001",
+        "label": "code54",
+        "usage": "FUNCTIONAL_STATUS_GROUP_CODE"
+      },
+      "activityTime": {
+        "value": "2015-06-20T00:00:00"
+      },
+      "attachments": [
+        {
+          "localId": "KuL241K2U4BUHAdrzDK2",
+          "filename": "Physical Exam 1",
+          "mimeType": "text/plain",
+          "s3Key": "bbe33731-a507-4f54-aae5-6ef36493006d",
+          "fileSize": 12
+        },
+        {
+          "localId": "Gv3lkPN1ciHKl8kiunyi",
+          "filename": "Attachment 1",
+          "mimeType": "text/plain",
+          "s3Key": "8ac07f4c-2646-4188-a009-0818db8f7ca3",
+          "fileSize": 12
+        }
+      ]
+    }
+  },
+  "family-histories": {
+    "identifier": {
+      "localId": "5bfe3ec0-5c8b-11db-b0de-0800200c9a6654"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "family-histories",
+    "value": {
+      "listOfLocalCodes": [],
+      "ageAtObservation": 40,
+      "familyHistoryStatus": {
+        "code": "46635009",
+        "label": "Diabetes mellitus type 1",
+        "codeSystem": "2.16.840.1.113883.6.96"
+      },
+      "familyHistoryPerson": {
+        "relationToPatient": {
+          "code": "FTH",
+          "label": "Father",
+          "codeSystem": "2.16.840.1.113883.5.111",
+          "codeSystemLabel": "HL7 FamilyMember"
+        },
+        "identifiers": [],
+        "name": {
+          "last": "Simpson",
+          "first": "Homer",
+          "degree": "MD",
+          "middle": "mname",
+          "prefix": "Dr",
+          "suffix": "Mr"
+        },
+        "birthdate": {
+          "value": "19120101000000+0000"
+        },
+        "gender": {
+          "code": "M",
+          "label": "Male",
+          "codeSystem": "2.16.840.1.113883.5.1"
+        }
+      },
+      "causeOfDeath": {
+        "code": "12345",
+        "label": "Old age"
+      },
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "negationIndicator": false,
+      "identifiers": [
+        {
+          "value": "5bfe3ec0-5c8b-11db-b0de-0800200c9a66",
+          "system": "1.2.3.4.5.1"
+        }
+      ],
+      "itemCode.label": "name",
+      "itemCode": {
+        "code": "7087005",
+        "label": "intermittent54",
+        "codeSystem": "2.16.840.1.113883.6.96",
+        "codeSystemLabel": "SNOMED CT"
+      },
+      "activityTime": {
+        "value": "19940101000000+0100"
+      },
+      "availabilityTime": {
+        "value": "202203300103"
+      }
+    }
+  },
+  "social-histories": {
+    "identifier": {
+      "localId": "social_history_id_3"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "social-histories",
+    "value": {
+      "value": "20",
+      "valueUnits": {
+        "code": "{pack}/d",
+        "label": "{pack}/d"
+      },
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "assessmentScaleObservations": [
+        {
+          "referenceRanges": [],
+          "value": "7",
+          "valueType": "INT",
+          "observationType": "OBSERVATION_TYPE_ASSESSMENT_SCALE_OBSERVATION",
+          "observations": [
+            {
+              "value": "3",
+              "valueType": "INT",
+              "observationType": "OBSERVATION_TYPE_ASSESSMENT_SCALE_SUPPORTING_OBSERVATION",
+              "identifiers": [
+                {
+                  "value": "f4dce790-8328-11db-9fe1-0800200c9a44"
+                }
+              ],
+              "localId": "f4dce790-8328-11db-9fe1-0800200c9a44",
+              "itemCode": {
+                "code": "248240001",
+                "label": "response 1",
+                "codeSystem": "2.16.840.1.113883.6.96",
+                "codeSystemLabel": "SNOMED"
+              },
+              "notes": "Assessment comments 1",
+              "startTime": {
+                "value": "20180116000000-0500"
+              },
+              "endTime": {
+                "value": "20200116000000-0500"
+              },
+              "availabilityTime": {
+                "value": "20240924025601Z"
+              },
+              "statusCode": {
+                "code": "completed"
+              }
+            },
+            {
+              "value": "10",
+              "valueType": "INT",
+              "observationType": "OBSERVATION_TYPE_ASSESSMENT_SCALE_SUPPORTING_OBSERVATION",
+              "identifiers": [
+                {
+                  "value": "f4dce790-8328-11db-9fe1-0800200c9a44"
+                }
+              ],
+              "localId": "f4dce790-8328-11db-9fe1-0800200c9a44",
+              "itemCode": {
+                "code": "248240001",
+                "label": "response 2",
+                "codeSystem": "2.16.840.1.113883.6.96",
+                "codeSystemLabel": "SNOMED"
+              },
+              "startTime": {
+                "value": "20180116000000-0500"
+              },
+              "endTime": {
+                "value": "20220116000000-0500"
+              },
+              "availabilityTime": {
+                "value": "20240924025601Z"
+              },
+              "statusCode": {
+                "code": "completed"
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "823a68fd-6742-43f2-b4bf-8b38444b7827",
+              "system": "2.16.840.1.113883.3.464.1005.1"
+            }
+          ],
+          "localId": "823a68fd-6742-43f2-b4bf-8b38444b7827",
+          "itemCode": {
+            "code": "44261-6",
+            "label": "Patient Health Questionnaire 9 item (PHQ-9) total score [Reported]",
+            "codeSystem": "2.16.840.1.113883.6.1",
+            "codeSystemLabel": "LOINC"
+          },
+          "startTime": {
+            "value": "20180116000000-0500"
+          },
+          "availabilityTime": {
+            "value": "20240924025601Z"
+          },
+          "statusCode": {
+            "code": "completed"
+          }
+        }
+      ],
+      "identifiers": [
+        {
+          "value": "social_history_id_3",
+          "system": "2.16.840.1.113883.3.933"
+        }
+      ],
+      "itemCode": {
+        "code": "229819007",
+        "label": "Social History",
+        "codeSystem": "2.16.840.1.113883.6.96"
+      },
+      "description": "Social History",
+      "startTime": {
+        "value": "19900915000000+0100"
+      },
+      "endTime": {
+        "value": "20100130000000+0100"
+      },
+      "availabilityTime": {
+        "value": "20240924025601Z"
+      },
+      "informants": [],
+      "authors": []
+    }
+  },
+  "functional-status": {
+    "identifier": {
+      "localId": "ff8cfb74-c057-4b54-a088-a5be8ba3dcc5"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "functional-status-groups",
+    "value": {
+      "listOfLocalCodes": [],
+      "assessmentScaleObservations": [
+        {
+          "referenceRanges": [],
+          "value": "7",
+          "valueType": "INT",
+          "observationType": "OBSERVATION_TYPE_ASSESSMENT_SCALE_OBSERVATION",
+          "observations": [
+            {
+              "value": "3",
+              "valueType": "INT",
+              "observationType": "OBSERVATION_TYPE_ASSESSMENT_SCALE_SUPPORTING_OBSERVATION",
+              "identifiers": [
+                {
+                  "value": "f4dce790-8328-11db-9fe1-0800200c9a44"
+                }
+              ],
+              "localId": "f4dce790-8328-11db-9fe1-0800200c9a44",
+              "itemCode": {
+                "code": "248240001",
+                "label": "response 1",
+                "codeSystem": "2.16.840.1.113883.6.96",
+                "codeSystemLabel": "SNOMED"
+              },
+              "notes": "Assessment comments 1",
+              "startTime": {
+                "value": "20180116000000-0500"
+              },
+              "endTime": {
+                "value": "20200116000000-0500"
+              },
+              "availabilityTime": {
+                "value": "20240924025601Z"
+              },
+              "statusCode": {
+                "code": "completed"
+              }
+            },
+            {
+              "value": "10",
+              "valueType": "INT",
+              "observationType": "OBSERVATION_TYPE_ASSESSMENT_SCALE_SUPPORTING_OBSERVATION",
+              "identifiers": [
+                {
+                  "value": "f4dce790-8328-11db-9fe1-0800200c9a44"
+                }
+              ],
+              "localId": "f4dce790-8328-11db-9fe1-0800200c9a44",
+              "itemCode": {
+                "code": "248240001",
+                "label": "response 2",
+                "codeSystem": "2.16.840.1.113883.6.96",
+                "codeSystemLabel": "SNOMED"
+              },
+              "startTime": {
+                "value": "20180116000000-0500"
+              },
+              "endTime": {
+                "value": "20220116000000-0500"
+              },
+              "availabilityTime": {
+                "value": "20240924025601Z"
+              },
+              "statusCode": {
+                "code": "completed"
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "value": "823a68fd-6742-43f2-b4bf-8b38444b7827",
+              "system": "2.16.840.1.113883.3.464.1005.1"
+            }
+          ],
+          "localId": "823a68fd-6742-43f2-b4bf-8b38444b7827",
+          "itemCode": {
+            "code": "44261-6",
+            "label": "Patient Health Questionnaire 9 item (PHQ-9) total score [Reported]",
+            "codeSystem": "2.16.840.1.113883.6.1",
+            "codeSystemLabel": "LOINC"
+          },
+          "startTime": {
+            "value": "20180116000000-0500"
+          },
+          "availabilityTime": {
+            "value": "20240924025601Z"
+          },
+          "statusCode": {
+            "code": "completed"
+          }
+        }
+      ],
+      "confidentialityCode": {
+        "code": "N",
+        "label": "Normal",
+        "codeSystem": "2.16.840.1.113883.5.25"
+      },
+      "identifiers": [
+        {
+          "value": "ff8cfb74-c057-4b54-a088-a5be8ba3dcc5",
+          "system": "2.16.840.1.113883.3.464.1005.1"
+        }
+      ],
+      "itemCode": {
+        "code": "64728-9",
+        "label": "Have you ever had vaginal intercourse [PhenX]",
+        "codeSystem": "2.16.840.1.113883.6.1",
+        "codeSystemLabel": "LOINC"
+      },
+      "startTime": {
+        "value": "20200817000000-0400"
+      },
+      "availabilityTime": {
+        "value": "20240920051936Z"
+      }
+    }
+  },
+  "advance-directives": {
+    "identifier": {
+      "localId": "450a6dfb-edf6-4906-b33f-071aeb04caa9"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "advance-directives",
+    "value": {
+      "identifiers": [
+        {
+          "value": "450a6dfb-edf6-4906-b33f-071aeb04caa9",
+          "system": "LAB1"
+        }
+      ],
+      "valueCode": {
+        "code": "label1"
+      },
+      "statusCode": {
+        "code": "label1"
+      },
+      "sequenceNumber": 1,
+      "itemCode": {
+        "code": "Gr23w",
+        "label": "NIpNX",
+        "codeSystem": "g5qo7"
+      },
+      "alternateCode": {
+        "code": "lwgQH",
+        "label": "k4NXx",
+        "codeSystem": "jNmiQ"
+      },
+      "notes": "A0rZe\n",
+      "endTime": {
+        "value": "20050831"
+      },
+      "startTime": {
+        "value": "20050831"
+      },
+      "activityTime": {
+        "value": "20050831"
+      },
+      "availabilityTime": {
+        "value": "20241105040426Z"
+      },
+      "informants": [
+        {
+          "informantEntityType": "ASSIGNED_ENTITY",
+          "representedOrganization": {
+            "names": ["LAB1"]
+          }
+        }
+      ]
+    }
+  },
+  "patient-attachments": {
+    "identifier": {
+      "localId": "test-attachment-254"
+    },
+    "mode": "AGGREGATE-HDH",
+    "resource": "clinical-attachments",
+    "value": {
+      "itemCode": {
+        "code": "Attachment-new"
+      },
+      "attachments": [
+        {
+          "localId": "temp2-attachment",
+          "name": "temp21 attachment",
+          "description": "description for the temp1.txt",
+          "filename": "temp2.txt",
+          "mimeType": "text/plain",
+          "s3Key": "5ff73391-d8b4-4dbc-87e7-7b721dd09b60",
+          "fileSize": 28
+        }
+      ]
+    }
+  }
+}
