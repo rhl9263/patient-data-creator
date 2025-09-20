@@ -1,11 +1,16 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Button from '@/components/ui/Button';
+import Input from '@/components/ui/Input';
+import Card from '@/components/ui/Card';
+import PageLayout from '@/components/ui/PageLayout';
+import { validateDomain, storeCredentials } from '@/utils/api';
 
 export default function RegistrationPage() {
   const router = useRouter();
   const [formData, setFormData] = useState({
-    domain: 'https://example.com/',
+    domain: '',
     username: '',
     password: ''
   });
@@ -15,70 +20,75 @@ export default function RegistrationPage() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: '' }));
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setErrors({});
+    
+    if (!validateDomain(formData.domain)) {
+      setErrors({ domain: 'Domain URL must end with .nextgenaws.net' });
+      return;
+    }
+    
     setIsSubmitting(true);
-    
-    // Store credentials in session storage
-    sessionStorage.setItem('apiCredentials', JSON.stringify(formData));
-    
-    // Redirect to patient creation
+    storeCredentials(formData);
     router.push('/create-patients');
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-8">
-        <h1 className="text-2xl font-bold text-center mb-6">Domain Details</h1>
-        
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Domain URL</label>
-            <input
-              type="url"
-              name="domain"
-              value={formData.domain}
-              onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Username</label>
-            <input
-              type="text"
-              name="username"
-              value={formData.username}
-              onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Password</label>
-            <input
-              type="password"
-              name="password"
-              value={formData.password}
-              onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-
-          <button
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-100 to-pink-50 flex items-center justify-center p-4">
+      <Card className="w-full max-w-md">
+        <h1 className="text-3xl font-extrabold text-center mb-8 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent drop-shadow-lg">
+          Domain Details
+        </h1>
+        <form onSubmit={handleSubmit} className="space-y-6">
+          <Input
+            type="url"
+            name="domain"
+            label="Domain URL"
+            value={formData.domain}
+            onChange={handleChange}
+            error={errors.domain}
+            required
+            placeholder="https://your-domain.nextgenaws.net/"
+            pattern="https?://[a-zA-Z0-9.-]+\\.nextgenaws\\.net/?"
+          />
+          
+          <Input
+            type="text"
+            name="username"
+            label="Username"
+            value={formData.username}
+            onChange={handleChange}
+            required
+            placeholder="Enter your username"
+          />
+          
+          <Input
+            type="password"
+            name="password"
+            label="Password"
+            value={formData.password}
+            onChange={handleChange}
+            required
+            placeholder="Enter your password"
+          />
+          
+          <Button
             type="submit"
-            disabled={isSubmitting}
-            className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            loading={isSubmitting}
+            className="w-full"
+            size="lg"
           >
             {isSubmitting ? 'Connecting...' : 'Continue'}
-          </button>
+          </Button>
         </form>
-      </div>
+      </Card>
     </div>
   );
 }

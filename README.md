@@ -1,38 +1,61 @@
-# patient-data-creator
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# HDH Patient Data Creator
 
-First, run the development server:
+HDH Patient Data Creator is a web application for generating and submitting synthetic patient data records to a Health Data Hub API. It is designed for healthcare developers, testers, and data engineers who need to create, customize, and send test patient data for integration, QA, or demonstration purposes.
 
-```bash
-npm install
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- User-friendly registration and login for API credentials and domain.
+- Select clinical data categories (allergies, medications, conditions, etc.) to include in each patient record.
+- Specify the number of patient records to generate in a batch.
+- Generates realistic, randomized patient data for each record.
+- Submits all records to a configurable Health Data Hub API endpoint using secure Basic Auth.
+- Displays API responses for each record, including error details if any.
+- Modern, responsive UI built with React and Tailwind CSS.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## How to Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone this repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/register` — Registration page for API credentials and domain.
+- `src/app/create-patients` — Main interface for generating and submitting patient data.
+- `src/app/api/proxy/route.js` — API route that securely proxies data to the Health Data Hub backend.
+- `src/components/data.json` — Template data for generating patient records.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment: AWS Amplify + Lambda + API Gateway (Private Backend)
 
-## Deploy on Vercel
+This app is designed to be deployed on AWS Amplify with secure access to a private Health Data Hub (HDH) API using AWS Lambda and API Gateway.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Key Points:**
+- The app is hosted on AWS Amplify (static + server functions).
+- All API requests from the app go to a Next.js API route (`/api/proxy`).
+- The API route forwards requests to a Lambda function (via API Gateway) using the `LAMBDA_PROXY_URL` environment variable.
+- The Lambda function runs inside your VPC and can access the private HDH API.
+- This allows secure, managed hosting with private backend access.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+**Production Domain:**
+
+- https://patient-data-creator.rnd.hdh.nextgenaws.net/
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for a full architecture diagram and step-by-step deployment instructions.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
